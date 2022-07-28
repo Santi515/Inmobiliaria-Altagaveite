@@ -1,0 +1,141 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: content-box;
+}
+
+header ul il{
+    display: flexbox;
+    flex-direction: row;
+    align-items: center;
+    justify-self: center;
+    align-content: space-between;
+    padding: 10px;
+    margin-right: 5px;
+    margin-bottom: 15px;
+    font-size: larger;
+    font-weight: light;
+    color: red;
+}
+
+header{
+    background-color: white;
+    border: solid 2px;
+    height: auto;
+    width: 100%;
+    margin: 0px;
+    background: linear-gradient(to left, rgb(249, 134, 134), white);
+}
+
+header img{
+    height: 103px;
+    width: 137px;
+    margin-top: 8px;
+    padding: 23px;
+    float: left;
+}
+
+header h1{
+    padding-top: 17px;
+    line-height: 43px;
+}
+
+section div{
+    display: grid;
+    grid-column: auto;
+    margin-top: 20px;
+    margin-left: 109px;
+    border: solid 2px;
+    background-color: burlywood;
+    padding-top: 0px;
+    width: 1220px;
+    height: auto;
+}
+
+article{
+    background-color: white;
+    padding-top: 0px;
+    margin: 5px;
+    width: 1200px;
+    height: auto;
+}
+
+article h2{
+    margin-top: 15px;
+    margin-bottom: 1px;
+    margin-left: 5px;
+    padding-left: 10px;
+    font-size: 19px;
+}
+
+article h3{
+    margin-bottom: 7px;
+    margin-left: 5px;
+    margin-top: 10px;
+    color: rgb(93, 93, 93);
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+article img{
+    height: 220px;
+    width: 300px;
+    float: left;
+    margin: 8px;
+    border: solid 3px;
+    border-radius: 1px;
+}
+
+article a{
+    margin: 5px;
+    padding: 5px;
+    font-size: large;
+    background-color: rgb(247, 126, 126);
+    border: solid 2px;
+    border-radius: 2em;
+}
+
+article p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 125%;
+    line-height: 22px;
+}
+
+footer{
+    background-color: whitesmoke;
+    height: auto;
+    width: 100%;
+    padding: 0px;
+    margin-top: 10px;
+    border: solid 5px;
+    border-color:  rgb(204, 126, 126);
+}
+
+footer h3{
+    font-size: 120%;
+    padding-left: 10px;
+    margin-bottom: 4px;
+}
+
+footer img{
+    margin: 7px;
+    height: 60px;
+    width: 60px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 576px) {
+    header{
+        width: 100%;
+    }
+    img{
+        height: 90px;
+        width: 112px;
+    }
+    footer{
+        width: 100%;
+    }
+    article{
+        width: 100%;
+        height: auto;
+        margin: 6px;
+    }
+}
