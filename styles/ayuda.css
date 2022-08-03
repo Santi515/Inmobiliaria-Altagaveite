@@ -1,3 +1,74 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: content-box;
+    overflow-x: hidden;
+}
+
+header ul il{
+    display: flexbox;
+    flex-direction: row;
+    align-items: center;
+    justify-self: center;
+    align-content: space-between;
+    padding: 10px;
+    margin-right: 5px;
+    margin-bottom: 15px;
+    font-size: larger;
+    font-weight: light;
+    color: red;
+}
+
+header{
+    background-color: white;
+    border: solid 2px;
+    height: auto;
+    width: 100%;
+    margin: 0px;
+    background: linear-gradient(to left, rgb(249, 134, 134), white);
+}
+
+header img{
+    height: 103px;
+    width: 137px;
+    margin-top: 8px;
+    padding: 23px;
+    float: left;
+}
+
+header h1{
+    padding-top: 17px;
+    line-height: 43px;
+}
+
+span{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 36px;
+    color: white;
+    -webkit-text-stroke: 2px black;
+}
+
+footer{
+    background-color: whitesmoke;
+    height: auto;
+    width: 100%;
+    padding: 0px;
+    margin-top: 10px;
+    border: solid 5px;
+    border-color:  rgb(204, 126, 126);
+}
+
+footer h3{
+    font-size: 120%;
+    padding-left: 10px;
+    margin-bottom: 4px;
+}
+
+footer img{
+    margin: 7px;
+    height: 60px;
+    width: 60px;
+}
+
 @media only screen and (min-width: 320px) and (max-width: 576px) {
     header{
         width: 100%;
